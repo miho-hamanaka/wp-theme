@@ -5,13 +5,13 @@ WordPress のオリジナルテーマ
 # Features
 
 記事サイトのデザインを効率よくつくるためのテンプレート
-め
 
 # Local
 
 ローカル環境でみるためのアイパス
 
 ID: nono_1113
+
 Pass: 18PQxb3jKy$X0mDWS6
 
 # Installation
