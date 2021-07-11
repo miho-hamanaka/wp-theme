@@ -24,14 +24,16 @@ $key-textColor: #bf9b45;
 $key-color: #b89f65;
 $key-lineColor: #e4d4c7;
 
-$main-color: #444;
+$main-color: #D6B12D;
 
-$sub-textColor: #bbb;
+$sub-textColor: #333;
 
-$lineColor: #ddd;
+$lineColor: #F4EFE9;
 
 $main-bgcColor: #fff;
-$sidebar-bgColor: #fbfbfb;
+$sidebar-bgColor: #F4EFE9;
+
+$cvColor: #ad8c14;
 
 
 /********************************************
@@ -60,8 +62,9 @@ h1 {
   color: #494949;
   padding: 0.25em 0.5em;
   background: transparent;
-  border-left: solid 5px $key-color;
+  border-left: solid 5px $main-color;
   margin-bottom: 20px;
+  line-height: 0.8;
 }
 
 .single .content h3 {

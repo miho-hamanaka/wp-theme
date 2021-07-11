@@ -50,4 +50,15 @@
   <!--header-->
   <div class="container">
     <header>
+      <section class="header">
+        <div class="header_outer">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/header_logo.png" alt="rizap cook ロゴ">
+          <p class="header_item1">結果にコミットするマンツーマン料理教室</p>
+        </div>
+        <div class="header_outer">
+          <p class="header_item2">TEL:0120-941-776<br>
+          <span class="header_item3">受付時間 9:00～21:00（年末年始を除く）</span></p>
+          <p class="header_item4"><a href="#">お問い合せ</a></p>
+        </div>
+      </section>
     </header>

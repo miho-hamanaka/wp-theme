@@ -26,12 +26,12 @@ aside section {
 }
 
 aside .widgettitle {
-  color: $key-color;
+  color: $main-color;
   font-size: 19px;
   font-weight: normal;
-  text-align: center;
+  // text-align: center;
   padding-bottom: 0.4rem;
-  border-bottom: 1px solid $key-lineColor;
+  // border-bottom: 1px solid $key-lineColor;
   margin-bottom: 13px;
 
   @include sp {
@@ -68,10 +68,10 @@ aside .rpwwt-post-date {
   color: $sub-textColor;
   font-size: 11px;
 }
-aside .rpwwt-post-date::before {
-  content: '\f017';
-  font-family: 'Font Awesome 5 Free';
-  color: $sub-textColor;
-  font-size: 11px;
-  margin-right: 3px;
-}
+// aside .rpwwt-post-date::before {
+//   content: '\f017';
+//   font-family: 'Font Awesome 5 Free';
+//   color: $sub-textColor;
+//   font-size: 11px;
+//   margin-right: 3px;
+// }
