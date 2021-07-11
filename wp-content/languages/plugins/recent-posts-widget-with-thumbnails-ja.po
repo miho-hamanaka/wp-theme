@@ -1,0 +1,246 @@
+# Translation of Plugins - Recent Posts Widget With Thumbnails - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - Recent Posts Widget With Thumbnails - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-05-24 01:24:03+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - Recent Posts Widget With Thumbnails - Stable (latest release)\n"
+
+#. Author of the plugin
+msgid "Kybernetik Services"
+msgstr "Kybernetik Services"
+
+#. Author URI of the plugin
+msgid "https://www.kybernetik-services.com/?utm_source=wordpress_org&utm_medium=plugin&utm_campaign=recent-posts-widget-with-thumbnails&utm_content=author"
+msgstr "https://www.kybernetik-services.com/?utm_source=wordpress_org&utm_medium=plugin&utm_campaign=recent-posts-widget-with-thumbnails&utm_content=author"
+
+#: includes/form.php:163
+msgid "Activate this option to eliminate possible confusion when the alternative texts and the post titles do not refer to each other. This can improve the accessibility of the post list. Do not activate this option if the post titles are hidden."
+msgstr "代替テキストと投稿タイトルが互いに参照していない場合に混乱を避けるには、このオプションを有効にします。これにより、投稿リストのアクセシビリティが向上します。投稿タイトルが非表示の場合は、このオプションを有効にしないでください。"
+
+#: includes/form.php:146
+msgid "Alt text of the default thumbnail:"
+msgstr "デフォルトのサムネイルの代替テキスト:"
+
+#: includes/form.php:162
+msgid "Omit alternative texts of the thumbnails?"
+msgstr "サムネイルの代替テキストを省略する"
+
+#: includes/form.php:48 includes/form.php:60
+msgid "A space will be added automatically between the label and the name."
+msgstr "ラベルと名前の間にスペースが自動的に追加されます。"
+
+#: recent-posts-widget-with-thumbnails.php:71
+msgid "By"
+msgstr "投稿者"
+
+#: includes/form.php:46
+msgid "Label for authors:"
+msgstr "投稿者のラベル:"
+
+#: includes/form.php:141
+msgid "Ignore all thumbnails and always use only the default thumbnail?"
+msgstr "すべてのサムネイルを無視し、常にデフォルトのサムネイルのみを使用する"
+
+#: includes/form.php:87
+msgid "If activated, the excerpts are created only by the excerpt fields. If both Ignore checkboxes are activated no excerpts are displayed in the list."
+msgstr "有効にすると、抜粋は抜粋フィールドによってのみ作成されます。 両方の無視チェックボックスが有効になっていると、リストに抜粋は表示されません。"
+
+#: includes/form.php:86
+msgid "Ignore post content as excerpt source?"
+msgstr "投稿の内容を抜粋ソースとして無視"
+
+#: includes/form.php:173 includes/form.php:177
+msgid "If activated this option applies to all instances of this widget."
+msgstr "有効化されている場合、このオプションはこのウィジェットのすべてのインスタンスに適用されます。"
+
+#: includes/form.php:22
+msgid "Show only sticky posts?"
+msgstr "固定表示投稿のみを表示"
+
+#: includes/form.php:104
+msgid "By default, the featured image of the post is used as long as the next checkboxes do not specify anything different."
+msgstr "デフォルトでは、次のチェックボックスで別の画像を指定しない限り、投稿のアイキャッチ画像が使用されます。"
+
+#: includes/form.php:23
+msgid "If activated the options to hide sticky posts and to keep them on top will be ignored."
+msgstr "有効化にする、選定固定投稿を非表示にして上に保持するオプションは無視されます。"
+
+#: includes/form.php:103
+msgid "Show thumbnail?"
+msgstr "サムネイルを表示"
+
+#: includes/form.php:172
+msgid "Print inline CSS instead of creating a CSS file?"
+msgstr "CSS ファイルを作成する代わりにインライン CSS を出力"
+
+#: includes/form.php:56
+msgid "Set post category names as links, pointing to their archives?"
+msgstr "投稿のカテゴリー名をアーカイブへのリンクとして設定"
+
+#: includes/form.php:58
+msgid "Label for categories:"
+msgstr "カテゴリーのラベル:"
+
+#: includes/form.php:5 includes/form.php:48 includes/form.php:60
+msgid "This field can be empty."
+msgstr "このフィールドは空欄にできます。"
+
+#: includes/form.php:26
+msgid "Do not show sticky posts?"
+msgstr "先頭固定表示投稿を非表示"
+
+#: includes/form.php:168
+msgid "Print slugs of post categories in class attribute of LI elements?"
+msgstr "カテゴリーのスラッグを li 要素の class 属性に出力"
+
+#: includes/form.php:169
+msgid "For developers: If checked you can set CSS rules for each list item on base of the assigned categories."
+msgstr "開発者の方へ: チェックすると、割り当てられたカテゴリーに基づいて各リスト項目に CSS ルールを設定できます。"
+
+#: includes/form.php:82
+msgid "Ignore post excerpt field as excerpt source?"
+msgstr "投稿の抜粋フィールドの内容を抜粋ソースとして無視"
+
+#: includes/form.php:11
+msgid "Open post links in new windows?"
+msgstr "リンクを新しいウィンドウで開く"
+
+#: includes/form.php:44
+msgid "Show post author?"
+msgstr "投稿者を表示"
+
+#: includes/form.php:14
+msgid "Show posts in random order?"
+msgstr "投稿の順序をランダムにする"
+
+#: recent-posts-widget-with-thumbnails.php:766
+msgid "Error on listing categories"
+msgstr "カテゴリー一覧取得エラー"
+
+#: recent-posts-widget-with-thumbnails.php:73
+msgctxt "In {categories}"
+msgid "In"
+msgstr "カテゴリー:"
+
+#: includes/form.php:53
+msgid "Show post categories?"
+msgstr "投稿カテゴリーを表示"
+
+#: includes/form.php:38
+msgid "Maximum length of post title"
+msgstr "投稿タイトルの最大文字数"
+
+#: includes/form.php:92
+msgid "Show number of comments?"
+msgstr "コメント数を表示"
+
+#: recent-posts-widget-with-thumbnails.php:112
+msgid "List of your site&#8217;s most recent posts, with clickable title and thumbnails."
+msgstr "クリック可能なタイトルとサムネイルを含む、サイトの最新投稿一覧。"
+
+#: includes/form.php:35
+msgid "Do not show post title?"
+msgstr "投稿タイトルを表示しない"
+
+#: includes/form.php:17
+msgid "Do not show the current post?"
+msgstr "現在の投稿は表示しない"
+
+#: includes/form.php:124
+msgid "Height of thumbnail"
+msgstr "サムネイルの高さ"
+
+#: includes/form.php:30
+msgid "Keep sticky posts on top of the list?"
+msgstr "「先頭に固定表示」の設定を一覧に反映"
+
+#: includes/form.php:72
+msgid "Maximum length of excerpt"
+msgstr "抜粋の最大文字数"
+
+#: includes/form.php:179
+msgid "Please rate it at wordpress.org!"
+msgstr "wordpress.org で評価してください!"
+
+#: includes/form.php:70
+msgid "Show excerpt?"
+msgstr "抜粋を表示"
+
+#: includes/form.php:65
+msgid "Show post date?"
+msgstr "投稿の公開日を表示"
+
+#: includes/form.php:96
+msgid "Show posts of selected categories only?"
+msgstr "選択したカテゴリーの投稿だけを表示"
+
+#: includes/form.php:75
+msgid "Signs after excerpt"
+msgstr "抜粋の後に付ける記号"
+
+#: includes/form.php:106
+msgid "Size of thumbnail"
+msgstr "サムネイルのサイズ"
+
+#: includes/form.php:132
+msgid "Try to use the post's first image if post has no featured image?"
+msgstr "アイキャッチ画像がないときは、投稿内の最初の画像を使用する"
+
+#: includes/form.php:143
+msgid "URL of default thumbnail (start with http://)"
+msgstr "デフォルトサムネイルの URL (http:// から指定)"
+
+#: includes/form.php:128
+msgid "Use aspect ratios of original images?"
+msgstr "オリジナルの縦横比を保つ"
+
+#: includes/form.php:138
+msgid "Use default thumbnail if no image could be determined?"
+msgstr "アイキャッチ画像がないときは、デフォルトのサムネイルを使用する"
+
+#: includes/form.php:135
+msgid "Use first image only, ignore featured image?"
+msgstr "アイキャッチ画像は無視して、投稿内の最初の画像を使用する"
+
+#: includes/form.php:121
+msgid "Width of thumbnail"
+msgstr "サムネイルの幅"
+
+#. Plugin URI of the plugin
+msgid "http://wordpress.org/plugins/recent-posts-widget-with-thumbnails/"
+msgstr "http://ja.wordpress.org/plugins/recent-posts-widget-with-thumbnails/"
+
+#: includes/form.php:108
+msgid "Specified width and height"
+msgstr "指定幅と高さ"
+
+#: includes/form.php:179
+msgid "Do you like the plugin?"
+msgstr "プラグインが気に入りましたか ?"
+
+#: includes/form.php:36
+msgid "Make sure you set a default thumbnail for posts without a thumbnail, otherwise there will be no link."
+msgstr "サムネイルのない投稿には必ずデフォルトのサムネイルを設定してください。設定しないとリンクがなくなります。"
+
+#: includes/form.php:98
+msgid "Click on the categories with pressed CTRL key to select multiple categories. If &#8220;%s&#8221; was selected then other selections will be ignored."
+msgstr "Ctrl キーを押しながらカテゴリーをクリックして、複数のカテゴリーを選択します。&#8220;%s&#8221; が選択された場合、他の選択は無視されます。"
+
+#: recent-posts-widget-with-thumbnails.php:78
+#: recent-posts-widget-with-thumbnails.php:111
+msgid "Recent Posts With Thumbnails"
+msgstr "サムネイル付きの最近の投稿"
+
+#. Plugin Name of the plugin
+msgid "Recent Posts Widget With Thumbnails"
+msgstr "Recent Posts Widget With Thumbnails"
+
+#. Description of the plugin
+msgid "Small and fast plugin to display in the sidebar a list of linked titles and thumbnails of the most recent postings"
+msgstr "リンク付きタイトルの一覧と最新投稿のサムネイルをサイドバーに表示するための小さくて高速なプラグイン"
