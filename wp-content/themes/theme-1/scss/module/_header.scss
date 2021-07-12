@@ -2,7 +2,7 @@
 .header {
   background-color: #000;
   color: #fff;
-  height: 90px;
+  height: 95px;
   padding: 19px 190px 11px;
   display: flex;
   justify-content: space-between;
@@ -13,6 +13,7 @@
   &_item1 {
     flex: 0 0 80%;
     margin: 12px 0 0 10px;
+    min-width: 319px;
   }
 
   &_item2 {
@@ -21,7 +22,8 @@
     letter-spacing: 1px;
     text-align: left;
     margin-right: 10px;
-    margin-top: 7px;
+    margin-top: 12px;
+    min-width: 292px;
   }
 
   &_item3 {
@@ -31,10 +33,22 @@
 
   &_item4 a {
     color: $colorWhite;
-    background-color: $cvColor;
+    background-image: linear-gradient(179.9deg, rgba(227, 192, 132, 1) -12.1%, rgba(169, 125, 48, 1) 73.7%);
+    //background-color: $cvColor;
     display: inline-block;
-    padding: 8px 67px;
+    padding: 0px 45px;
     text-align: center;
-    border-radius: 26px;
+    border-radius: 40px;
+    min-width: 230px;
+    font-size: 19px;
+    &::before {
+      content: '\f0e0';
+      font-family: 'Font Awesome 5 Free';
+      font-weight: bold;
+      font-size: 30px;
+      color: $colorWhite;
+      margin-right: 13px;
+      vertical-align: middle;
+    }
   }
 }

@@ -1,0 +1,372 @@
+
+/********************************************
+
+投稿ページ
+
+********************************************/
+
+@include pc {
+  html,
+  body {
+    font-size: 16px;
+  }
+}
+
+@include tab {
+  html,
+  body {
+    font-size: 16px;
+  }
+}
+
+.posts .post {
+  display: flex;
+  // padding-bottom: 30px;
+  margin-bottom: 37px;
+
+  @include sp {
+    display: block;
+  }
+}
+
+.posts .post .thumbnail {
+  width: 100px;
+  margin-right: 105px;
+
+  @include sp {
+    width: auto;
+    text-align: center;
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+}
+
+.posts .post .thumbnail img {
+  max-width: 185px;
+  height: 165px;
+  object-fit: cover;
+  @include sp {
+    max-width: 100%;
+  }
+}
+
+.posts .post .detail {
+  width: 76%;
+  @include sp {
+    width: auto;
+  }
+}
+
+.posts .post .detail h2 {
+  border-bottom: solid 3px $lineColor;
+  margin-bottom: 17px;
+  padding-bottom: 2px;
+}
+
+// .posts .post .detail h2:after {
+//   position: absolute;
+//   content: " ";
+//   display: block;
+//   border-bottom: solid 3px $main-color;
+//   bottom: -3px;
+//   width: 20%;
+// }
+
+.posts .post .detail h2 a {
+  font-size: 18px;
+}
+
+.posts .post .detail .post-date {
+  text-align: right;
+  margin-bottom: 9px;
+  color: $sub-textColor;
+  font-size: 11px;
+}
+
+.posts .post .detail .post-date i {
+  margin-right: 2px;
+  color: $sub-textColor;
+  font-size: 11px;
+}
+
+/********************************************
+
+カテゴリータグ
+
+********************************************/
+
+.post-categories {
+  display: grid;
+  grid-auto-flow: column;
+  grid-column-gap: 10px;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+  padding: 0;
+  list-style-type: none;
+  margin-top: 6px;
+}
+
+.post-categories a {
+  // padding: 3px 9px;
+  // background-color: $main-color;
+  // border-radius: 4px;
+  // color: $colorWhite;
+  // font-size: 13px;
+  @include sp {
+    padding: 3px 10px;
+    border-radius: 1vw;
+    font-size: 2.5vw;
+  }
+}
+
+/********************************************
+
+パンクズ
+
+********************************************/
+
+.breadcrumb {
+  padding: 20px 0;
+
+  @include sp {
+    width: 90vw;
+    margin: 0 auto 3vw;
+  }
+}
+
+.breadcrumb li {
+  margin-right: 25px;
+  position: relative;
+  float: left;
+
+  @include sp {
+    display: inline-block;
+  }
+}
+
+.breadcrumb-active {
+  color: $key-color !important;
+}
+
+.breadcrumb-area span {
+  padding: 4px;
+  //color: $key-color !important;
+}
+
+.breadcrumb li::after {
+  content: ">";
+  right: -17px;
+  position: absolute;
+
+  @include sp {
+    padding: 0 0 0 2vw;
+  }
+}
+
+.breadcrumb li:last-child::after {
+  content: none;
+}
+
+.breadcrumb-area span {
+  padding: 4px;
+}
+
+.breadcrumb a {
+  color: #343434;
+}
+
+/********************************************
+
+ページネーション
+
+********************************************/
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 40px;
+  position: relative;
+  font-size: 13px;
+  border-top: solid 1px $lineColor;
+  padding-top: 25px;
+
+
+  @include sp {
+    margin: 2vw 0;
+    font-size: 1vw;
+  }
+}
+
+.pagination span,
+.pagination a {
+  display: block;
+  width: auto;
+  margin: 4px;
+  padding: 4px 6px;
+  border: 1px solid rgb(112, 112, 112);
+  background-color: $colorWhite;
+  text-decoration: none;
+  text-align: center;
+  line-height: 16px;
+  border-radius: 2px;
+  color: rgb(112, 112, 112);
+
+  @include sp {
+    padding: 4px;
+    border-radius: 0.5vw;
+    font-size: 3vw;
+  }
+}
+
+/* 前へ */
+.pagination a.prev {
+  margin-right: 16px;
+
+  @include sp {
+  margin-right: 1vw;
+  }
+}
+
+/* 次へ */
+.pagination a.next {
+  margin-left: 16px;
+
+  @include sp {
+    margin-right: 1vw;
+  }
+}
+
+/* ホバー時 & 現在のページ */
+.pagination a:hover,
+.pagination .current {
+  color: $colorWhite;
+  border-color: $lineColor;
+  background-color:$main-color;
+  border-radius: 2px;
+
+  @include sp {
+    border-radius: 0.5vw;
+  }
+}
+
+/* ページ番号 */
+.pagination .pager {
+  width: 32px;
+
+  @include sp {
+    width: 8.5vw;
+    font-size: 3vw;
+  }
+}
+
+.pagination span.page_num {
+  display: none;
+}
+/********************************************
+
+outline
+
+********************************************/
+
+.outline{
+  &_wrapper {
+    text-align: center;
+    padding: 0 115px;
+    margin-bottom: 28px;
+  }
+  &_catch {
+    margin: 40px 0 35px;
+    letter-spacing: 1px;
+  }
+  &_data {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+    &_inner {
+      margin-right: 46px;
+    }
+
+    &_title {
+      background-color: #D6B12D;
+      color: $colorWhite;
+      padding: 2px 10px;
+      margin-bottom: 15px;
+    }
+
+    &_content {
+      line-height: 1.8;
+      margin-bottom: 10px;
+      padding-left: 5px;
+      span {
+        font-size: 13px;
+      }
+    }
+  }
+  &_map {
+    flex: 0 0 56%;
+  }
+
+}
+
+
+.cv-btn {
+
+  & a {
+    color: $colorWhite;
+    font-family: serif;
+    font-size: 28px;
+    display: inline-block;
+    background-image: linear-gradient(179.9deg, rgba(227, 192, 132, 1) -12.1%, rgba(169, 125, 48, 1) 73.7%);
+    //background-color: $main-color;
+    width: 530px;
+    margin: 40px auto;
+    padding: 20px 0;
+    border-radius: 50px;
+  }
+}
+
+/* 光らせるためのstyle */
+.shine {
+  border: 2px solid transparent;
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    content: "";
+    animation: shine 4s cubic-bezier(0.09, 0.21, 0.15, 0.6) infinite;
+    background-color: rgb(255, 255, 255);
+    width: 140%;
+    height: 100%;
+    transform: skewX(-45deg);
+    top: 0;
+    left: -160%;
+    opacity: 0.5;
+    position: absolute;
+  }
+}
+
+/* 光の動き */
+@keyframes shine {
+  0% {
+    left: -160%;
+    opacity: 0;
+  }
+
+  70% {
+    left: -160%;
+    opacity: 0.5;
+  }
+
+  71% {
+    left: -160%;
+    opacity: 1;
+  }
+
+  100% {
+    left: -20%;
+    opacity: 0;
+  }
+}

@@ -36,5 +36,6 @@
     <?php get_sidebar(); ?>
   </div>
   <div class="display-none"><?php the_post_navigation(); ?> </div>
+  <a href="<?php echo get_post_type_archive_link(get_post_type()); ?>">一覧へ戻る</a>
 </div>
 <?php get_footer(); ?>

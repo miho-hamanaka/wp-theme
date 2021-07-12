@@ -45,18 +45,31 @@
       text-align: left;
       margin-right: 10px;
       margin-top: 7px;
+      min-width: 292px;
     }
     &_item2 {
       font-size: 14px;
       letter-spacing: 0.7px;
     }
     &_item3 a{
-      color: $colorWhite;
-      background-color: $cvColor;
-      display: inline-block;
-      padding: 8px 67px;
-      text-align: center;
-      border-radius: 26px;
+        color: $colorWhite;
+        //background-color: $cvColor;
+        background-image: linear-gradient(179.9deg, #e3c084 -12.1%, #a97d30 73.7%);
+        display: inline-block;
+        padding: 1px 51px;
+        text-align: center;
+        border-radius: 31px;
+        min-width: 190px;
+        font-size: 19px;
+      &::before {
+        content: '\f0e0';
+        font-family: 'Font Awesome 5 Free';
+        font-weight: bold;
+        font-size: 30px;
+        color: $colorWhite;
+        margin-right: 13px;
+        vertical-align: middle;
+      }
     }
     &_item4 {
       color: $colorWhite;
